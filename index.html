@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Booksky</title>
+    <link
+      rel="stylesheet"
+      href="C:\Users\steph\OneDrive\Desktop\nostra E-commerce app\popup\booksky app\style.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="navbar">
+      <h1>Booksky</h1>
+    </div>
+    <div class="container">
+      <div class="book-container">
+        <h2>Rich Dad poor Dad</h2>
+        <h3>-Robert</h3>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
+          dolores recusandae nobis minus officia nulla! Nam culpa eius neque
+          atque consectetur repudiandae sequi aspernatur nihil, asperiores rem
+          reiciendis nostrum laudantium.
+        </p>
+        <button onclick="delbtn(event)">Delete</button>
+      </div>
+    </div>
+    <button class="add-button" id="plusbtn">+</button>
+
+    <div class="overlay"></div>
+    <div class="popup">
+      <h1>Add book</h1>
+      <form>
+        <input type="text" placeholder="Book-Title" id="title-input" />
+        <input type="text" placeholder="Book-Author" id="author-input" />
+        <textarea placeholder="Short Description" id="Description"> </textarea>
+        <button id="add-btn">ADD</button>
+        <button id="cancel-btn">CANCEL</button>
+      </form>
+    </div>
+
+    <script src="C:\Users\steph\OneDrive\Desktop\nostra E-commerce app\popup\booksky app\script.js"></script>
+  </body>
+</html>
